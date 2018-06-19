@@ -19,7 +19,7 @@ public class HelloWorld extends HttpServlet {
    public void doGet(HttpServletRequest req, HttpServletResponse resp) 
          throws ServletException, IOException {
 	   
-	  String text = "Hello World Update!";	  
+	  String text = "Hello World!";	  
 	  String upperCase = UpperCase.upperCase(text);
       resp.setContentType("text/plain");
       resp.getWriter().write(upperCase);
